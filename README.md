@@ -10,7 +10,10 @@
 ## Keywords
 
 ### &emsp;auth
-&emsp;&emsp;33 位字符串，位于 `Login` 和 `EndRunForSchool` 数据请求头中的签名，其中 `Login` 请求中可省略，加密方式为 `'B' + MD5(MD5(UUID) + ':' + token) ` ，其中 `UUID` 可通过对首次微信登录抓包获取
+&emsp;&emsp;33 位字符串，位于 `Login` 和 `EndRunForSchool` 数据请求头中的签名，其中 `Login` 请求中可省略，加密方式为 `'B' + MD5(MD5(UUID) + ':' + token) ` 
+
+### &emsp;UUID
+&emsp;&emsp;6 位数字，即 'UserId' ， 可通过对首次微信登录抓包获取
 
 ### &emsp;IMEI Code
 &emsp;&emsp;32 位字符串，包含数字和小写字母，用于标记用户，经测试首次微信登录授权后长期有效
