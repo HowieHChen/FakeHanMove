@@ -1,4 +1,5 @@
 # Copyright (c) Ye Liu. All rights reserved.
+#!/usr/bin/env python
 
 import datetime
 import hashlib
