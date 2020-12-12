@@ -1,5 +1,6 @@
-# Copyright (c) Ye Liu. All rights reserved.
 #!/usr/bin/env python
+
+# Copyright (c) Ye Liu. All rights reserved.
 
 import datetime
 import hashlib
